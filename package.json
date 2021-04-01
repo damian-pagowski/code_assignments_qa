@@ -1,0 +1,25 @@
+{
+  "name": "code_assignments_qa",
+  "version": "1.0.0",
+  "description": "api testing assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test-api": "npx jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damian-pagowski/code_assignments_qa.git"
+  },
+  "author": "Damian Pagowski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/damian-pagowski/code_assignments_qa/issues"
+  },
+  "homepage": "https://github.com/damian-pagowski/code_assignments_qa#readme",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "jest": "^26.6.3"
+  }
+}
