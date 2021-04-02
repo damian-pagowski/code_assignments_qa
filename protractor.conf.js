@@ -1,8 +1,9 @@
 exports.config = {
   framework: "jasmine2",
   baseUrl: "http://automationpractice.com",
-  specs: ["./test/e2e/src/spec/app.e2e-spec.js"],  
+  specs: ["./test/e2e/src/spec/end-to-end.spec.js"],  
   onPrepare: function() {
+    require("babel-register");
     jasmine.DEFAULT_TIMEOUT_INTERVAL = 120000;
     browser.driver
       .manage()
@@ -19,8 +20,8 @@ exports.config = {
   capabilities: {
     browserName: "chrome",
     directConnect: true,
-    "goog:chromeOptions": {
-      args: ["--headless", "--disable-gpu", "--window-size=1366,768"],
-    },
+    // "goog:chromeOptions": {
+    //   args: ["--headless", "--disable-gpu", "--window-size=1366,768"],
+    // },
   },
 };

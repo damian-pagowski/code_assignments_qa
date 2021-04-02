@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites disabled="0" errors="0" failures="1" tests="1" time="0.133">
+ <testsuite name="test suite for online store" timestamp="2021-04-02T15:39:57" hostname="localhost" time="0.133" errors="0" tests="1" skipped="0" disabled="0" failures="1">
+  <testcase classname="test suite for online store" name="encountered a declaration exception" time="0.131">
+   <failure type="exception" message="ReferenceError: listContainer is not defined"><![CDATA[ReferenceError: listContainer is not defined
+    at new ProductList (/home/damian/workspace-damian/personal/code_assignments_qa/test/e2e/src/pages/product-list.po.js:8:5)
+    at Suite.<anonymous> (/home/damian/workspace-damian/personal/code_assignments_qa/test/e2e/src/spec/end-to-end.spec.js:15:23)
+    at addSpecsToSuite (/home/damian/workspace-damian/personal/code_assignments_qa/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1107:25)
+    at Env.describe (/home/damian/workspace-damian/personal/code_assignments_qa/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1074:7)
+    at describe (/home/damian/workspace-damian/personal/code_assignments_qa/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4399:18)
+    at Object.<anonymous> (/home/damian/workspace-damian/personal/code_assignments_qa/test/e2e/src/spec/end-to-end.spec.js:13:1)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at loader (/home/damian/workspace-damian/personal/code_assignments_qa/node_modules/babel-register/lib/node.js:144:5)
+    at Object.require.extensions.(anonymous function) [as .js] (/home/damian/workspace-damian/personal/code_assignments_qa/node_modules/babel-register/lib/node.js:154:7)
+    at Module.load (internal/modules/cjs/loader.js:653:32)]]>
+   </failure>
+  </testcase>
+ </testsuite>
+</testsuites>
