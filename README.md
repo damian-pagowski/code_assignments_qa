@@ -1,48 +1,43 @@
-# Damian Pagowski - test project
+# QA assignment - Damian Pagowski
 
-Project is built of 3 parts. Each demonstrates usage of different test type:
-1. Automated UI test
-2. API test
+Foobar is a Python library for dealing with word pluralization.
 
+## Installation
 
-## Automated UI tests
-
-Tests are implemented with webdriver + javascript
-
-### Setup - Webdriver 
-
-The webdriver-manager is a helper tool to easily get an instance of a Selenium Server running. Use it to download the necessary binaries and run it:
-
+Use npm to install project dependencies:
 ```bash
-npx webdriver-manager update
-npx webdriver-manager start
+npm i
 ```
 
-### Running Tests
+## Assignment 1 - UI automation
+
+Test implemented with [Cypress](https://www.cypress.io)
+Reason for choosing Cypress:
+- it can be easily installed with npm and does not require additional configuration
+- supports ES6 out of box
+- application under test doesn't use features not supported or problematic to implement with  Cypress (works in same tab, does not use file upload etc.)
 
 
-```bash
-npm run test-ui
-```
-
-### Project Structure
-
-```bash
-
-|-- test
-      |--e2e
-         |-- pages (page objects)
-         |-- specs (specs - test cases)
-         |-- helpers (utility classes)
-
-```
-
-## API tests
-
-Tests implemented using Chai, Chai-http and Jest libraries. 
-
-### Running Tests
+Running tests in console (headless browser):
 
 ```bash
-npm run test-api
+npx run test-ui
 ```
+To open cypress test runner:
+```bash
+npx run test-ui-runner
+```
+
+
+## Assignment 2 - API tests
+
+stack: 
+- Jest
+- Chai
+Chai-http
+
+Usage:
+
+```bash
+npx run test-api
+``
