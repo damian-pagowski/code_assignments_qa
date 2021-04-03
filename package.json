@@ -4,9 +4,9 @@
   "description": "api testing assignment",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "test-api": "npx jest test/api/api.spec.js",
-    "test-ui": "npx jest test/e2e/src/spec/end-to-end.spec.js"
+    "test-ui": "npx cypress run",
+    "test-ui-runner": "npx cypress open"
   },
   "repository": {
     "type": "git",
@@ -19,29 +19,9 @@
   },
   "homepage": "https://github.com/damian-pagowski/code_assignments_qa#readme",
   "devDependencies": {
-    "babel-eslint": "^10.0.1",
-    "babel-jest": "^26.6.3",
-    "babel-plugin-external-helpers": "^6.22.0",
-    "babel-plugin-transform-object-rest-spread": "^6.26.0",
-    "babel-preset-env": "^1.7.0",
     "chai": "^4.3.4",
     "chai-http": "^4.3.0",
     "chromedriver": "^89.0.0",
-    "cypress": "^6.8.0",
-    "eslint": "^7.23.0",
-    "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-config-prettier": "^8.1.0",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-jest": "^24.3.2",
-    "eslint-plugin-prettier": "^3.3.1",
-    "jasmin": "0.0.2",
-    "jasmine": "^3.7.0",
-    "jest": "^26.6.3",
-    "jsdom": "^16.5.2",
-    "prettier": "^2.2.1",
-    "rimraf": "^3.0.2"
-  },
-  "jest": {
-    "setupTestFrameworkScriptFile": "./jest.config.js"
+    "cypress": "^6.8.0"
   }
 }
