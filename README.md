@@ -40,4 +40,11 @@ Usage:
 
 ```bash
 npx run test-api
-``
+```
+
+## Assignment 3 - SQL
+
+Created test databases and with 2 tables: EmployeeDetails, EmployeeSalary
+
+- test database exported to SQL file: test.sql
+- queries in file: queries.txt
