@@ -66,3 +66,11 @@ docs/sample_test_cases.pdf
 
 
 ## Assignment 5 - Sample Bug Report
+
+Example Bug report Could be found on my github:
+
+```bash
+https://github.com/damian-pagowski/online-store-client-web/issues/2#issue-580038526
+```
+
+ 
