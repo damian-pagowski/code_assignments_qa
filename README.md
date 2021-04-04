@@ -58,5 +58,11 @@ Created test databases and with 2 tables: EmployeeDetails, EmployeeSalary
 
 ## Assignment 4 - Sample Test Cases
 
+List of sampel test cases can be found in this location
+
+```bash
+docs/sample_test_cases.pdf
+```
+
 
 ## Assignment 5 - Sample Bug Report
