@@ -1,0 +1,3 @@
+A) SELECT EmployeeDetails.FullName, EmployeeSalary.Salary + EmployeeSalary.Variable AS TotalSalary FROM EmployeeDetails INNER JOIN EmployeeSalary ON EmployeeDetails.EmpId=EmployeeSalary.EmpId
+B) SELECT EmployeeDetails.FullName, EmployeeSalary.Salary FROM EmployeeDetails INNER JOIN EmployeeSalary ON EmployeeDetails.EmpId=EmployeeSalary.EmpId WHERE EmployeeSalary.Salary BETWEEN 5000 AND 10000
+C) SELECT EmployeeDetails.FullName, EmployeeSalary.Salary FROM EmployeeDetails LEFT JOIN EmployeeSalary ON EmployeeDetails.EmpId=EmployeeSalary.EmpId

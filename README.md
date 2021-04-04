@@ -1,6 +1,5 @@
 # QA assignment - Damian Pagowski
 
-Foobar is a Python library for dealing with word pluralization.
 
 ## Installation
 
@@ -12,12 +11,16 @@ npm i
 ## Assignment 1 - UI automation
 
 Test implemented with [Cypress](https://www.cypress.io)
+
 Reason for choosing Cypress:
 - it can be easily installed with npm and does not require additional configuration
 - supports ES6 out of box
 - application under test doesn't use features not supported or problematic to implement with  Cypress (works in same tab, does not use file upload etc.)
 
-
+Test spec location
+```bash
+cypress/integration/online-shop.spec.js
+```
 Running tests in console (headless browser):
 
 ```bash
@@ -36,6 +39,10 @@ stack:
 - Chai
 Chai-http
 
+Test spec location
+```bash
+test/api/api.spec.js
+```
 Usage:
 
 ```bash
@@ -48,3 +55,8 @@ Created test databases and with 2 tables: EmployeeDetails, EmployeeSalary
 
 - test database exported to SQL file: test.sql
 - queries in file: queries.txt
+
+## Assignment 4 - Sample Test Cases
+
+
+## Assignment 5 - Sample Bug Report
