@@ -1,5 +1,5 @@
 # QA assignment - Damian Pagowski
-
+very typical assignment for a candidate for a QA role 
 
 ## Installation
 
