@@ -1,5 +1,10 @@
 # QA assignment - Damian Pagowski
-very typical assignment for a candidate for a QA role 
+very typical assignment for a candidate for a QA role:
+- checking UI test automation
+- automating API tests
+- basic SQL
+- test case structure
+- bug report
 
 ## Installation
 
